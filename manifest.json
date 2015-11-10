@@ -1,0 +1,6 @@
+{
+  "name": "Hue Chat",
+  "short_name": "Hue Chat",
+  "start_url": "./?utm_source=web_app_manifest",
+  "display": "standalone"
+}
