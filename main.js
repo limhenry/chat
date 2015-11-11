@@ -63,8 +63,9 @@
         return huemessage;
     }
 
-    app.handleSWError = function(){
+    app.handleSWError = function(e){
     	console.log("handleSWError")
+        console.log(e)
     };
 
     app.handleSWUpdated = function(){
@@ -72,6 +73,7 @@
     };
 
     app.displayInstalledToast = function(){
-    	console.log("displayInstalledToast")
+    	console.log("displayInstalledToast");
+        document.querySelector('#caching-complete').show();
     }
 })(document);

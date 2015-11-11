@@ -1,6 +1,12 @@
 {
-  "name": "Hue Chat",
-  "short_name": "Hue Chat",
-  "start_url": "./?utm_source=web_app_manifest",
-  "display": "standalone"
+    "name": "Hue Chat",
+    "short_name": "Hue Chat",
+    "start_url": "./?homescreen=1",
+    "theme_color": "#1B5E20",
+    "background_color": "#1B5E20",
+    "icons": [ {
+        "sizes": "192x192",
+        "src": "img/profile.png",
+        "type": "image/png"
+    }]
 }

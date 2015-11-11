@@ -76,15 +76,18 @@ paper-card{
 	position: static;
 	overflow-y: auto;
 }
-#mainContainer div{
-	flex-direction: row;
-	margin-bottom: 12px;
-	padding: 16px;
-	display: flex;
+#img_text_div{
+    padding: 16px 20px 4px 20px;
 	border-bottom:1px solid #E0E0E0;
+	min-height: 62px;
+}
+#text_div{
+    padding-top: 4px;
+    margin-bottom: 18px;	
+	margin-left: 72px;
 }
 img{
-	margin-right: 24px;
+	float: left;
 	border-radius:50%
 }
 #item_human{
@@ -92,7 +95,7 @@ img{
 	font-weight: 600;
 }
 #item_text{
-	flex: 1;margin-top: 28px;
+	margin: 4px 0px;
 }
 .paper-input-container-0 .unfocused-line.paper-input-container{
 	background: none;
@@ -112,7 +115,6 @@ paper-input-container{
 		height: 100%;		
 	}
 	.content {
-		padding-top: 12px;
 		margin-top: 0px; 
 		height: calc(100% - 152px);
 		position: static;
@@ -137,9 +139,5 @@ paper-input-container{
 	paper-fab{
 		height: 48px;
 		width: 48px;
-	}
-	#mainContainer div{
-		margin-bottom: 12px;
-		padding: 8px 16px;
 	}
 }
